@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './user.css';
-import 'react-calendar/dist/Calendar.css';
 import Moment from 'react-moment';
 import { Calendar, momentLocalizer, } from 'react-big-calendar';
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
-import 'react-calendar/dist/Calendar.css';
 import Checkbox from '@material-ui/core/Checkbox';
 
 // styling
